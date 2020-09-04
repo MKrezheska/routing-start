@@ -22,7 +22,7 @@ export class UserComponent implements OnInit, OnDestroy {
     };
 
     // Listens/observes for change in the params
-    // The first funstion executes whenever any of the params changes
+    // The function executes whenever any of the params changes
     this.route.params
       .subscribe(
         (params: Params) => {
